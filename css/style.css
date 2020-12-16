@@ -8397,7 +8397,7 @@ h1, h2, h3, h4, h5,
   padding-bottom: 40px;
   padding-left: 2em;
   padding-right: 2em;
-  width: 25%;
+  width: 100%;
   position: fixed;
   bottom: 0;
   top: 0;
@@ -8413,7 +8413,7 @@ h1, h2, h3, h4, h5,
   transition: all 0.5s ease; }
   @media (min-width: 992px) {
     #colorlib-aside {
-      width: 25%; } }
+      width: 20%; } }
   @media (max-width: 991.98px) {
     #colorlib-aside {
       width: 270px;
@@ -8522,11 +8522,11 @@ h1, h2, h3, h4, h5,
     left: 0;
     right: 0;
     padding: 0 2em;
-    font-size: 17px;
+    font-size: 12px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.2); }
-    #colorlib-aside .colorlib-footer h3 {
-      font-size: 14px;
+    #colorlib-aside .colorlib-footer p {
+      font-size: 12px;
       font-weight: 600;
       color: rgba(255, 255, 255, 0.5);
       font-family: "Poppins", Arial, sans-serif;
@@ -8534,7 +8534,7 @@ h1, h2, h3, h4, h5,
     #colorlib-aside .colorlib-footer a {
       color: rgba(255, 255, 255, 0.7); }
     #colorlib-aside .colorlib-footer .pfooter {
-      font-size: 14px; }
+      font-size: 12px; }
     #colorlib-aside .colorlib-footer .colorlib-subscribe-form {
       width: 100%; }
       #colorlib-aside .colorlib-footer .colorlib-subscribe-form .form-group {
@@ -8588,7 +8588,7 @@ h1, h2, h3, h4, h5,
   transition: all 0.5s ease; }
   @media (min-width: 992px) {
     #colorlib-main {
-      width: 75%; } }
+      width: 80%; } }
 
 .colorlib-nav-toggle {
   cursor: pointer;
@@ -9398,15 +9398,15 @@ textarea.form-control {
   color: #3b5998;
 }
 
-.socialmedia li:nth-child(2) i:hover{
-  color: #00acee;
+.socialmedia li:nth-child(4) i:hover{
+  color: #c4a262;
 }
 
-.socialmedia li:nth-child(3) i:hover{
+.socialmedia li:nth-child(2) i:hover{
   color: #8134AF;
 }
 
-.socialmedia li:nth-child(4) i:hover{
+.socialmedia li:nth-child(3) i:hover{
   color: #FF0000;
 }
 
