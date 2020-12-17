@@ -8759,7 +8759,7 @@ h1, h2, h3, h4, h5,
       margin-left: 20px;
       width: 40px;
       height: 40px;
-      border: 1px solid rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8);
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       -webkit-transition: all 0.3s ease;
@@ -9096,9 +9096,6 @@ textarea.form-control {
     font-weight: 700;
     text-transform: uppercase;
     color: #fff; }
-.contact-wrap .mapouter{
-  margin-left: -6%;
-}
 .info-wrap {
   color: rgba(0, 0, 0, 0.8); }
   .info-wrap h3 {
@@ -9120,7 +9117,7 @@ textarea.form-control {
       width: 50px;
       height: 50px;
       border-radius: 50%;
-      border: 1px solid rgba(0, 0, 0, 0.1); }
+      border: 1px solid rgb(0, 0, 0); }
       .info-wrap .dbox .icon span {
         font-size: 20px;
         color: #000000; }
@@ -9474,7 +9471,7 @@ textarea.form-control {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(0, 0, 0);
   margin-left: 0em; }
   .info-wrap .dbox .icon1 span {
     font-size: 20px;
@@ -9482,7 +9479,7 @@ textarea.form-control {
     .inputform textarea{
       margin-top: 0.5em;
       margin-left: 1em;
-      width: 100%;
+      width: 28.6em;
       border-radius: 0.3em !important;
       border: 2px solid black;
     }
@@ -9815,4 +9812,41 @@ hr{
 }
 .col-md-4:nth-child(11) .galimg{
   background-position: 22%;
+}
+
+.mapres{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  margin-left: -55px;
+  margin-right: -30px;
+}
+.mapres iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.cont{
+  border-left: 2px solid black;
+}
+
+@media screen and (max-width:992px){
+  .cont{
+    border-left: none;
+    margin-top: 2em;
+  }
+  .inputform textarea{
+    width: 12em;
+  }
+  .info-wrap h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .px-md-0{
+    margin-right: -1em;
+  }
 }
