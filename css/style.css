@@ -9804,5 +9804,15 @@ hr{
   }
 }
 
+.galimg{
+  height: 400px;
+  background-size: cover; 
+  margin:20px 5px 20px 10px;
+}
 
-
+.col-md-4:nth-child(3) .galimg{
+  background-position: 20%;
+}
+.col-md-4:nth-child(11) .galimg{
+  background-position: 22%;
+}
