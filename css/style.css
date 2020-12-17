@@ -8811,7 +8811,9 @@ h1, h2, h3, h4, h5,
         position: relative; }
       .portfolio-wrap .text .desc .absolute {
         padding-left: 20px;
-        position: relative; }
+        position: relative;
+        text-align: justify;
+       }
         .portfolio-wrap .text .desc .absolute:after {
           position: absolute;
           top: 10px;
@@ -9510,7 +9512,7 @@ hr{
 .box2{
   border: 1px solid black;
    border-bottom: 2px solid black; 
-   background-image: url('../images/neckrest.jpg'); 
+   background-image: url('../images/bootmats.jpg'); 
    background-size: cover; 
    padding: 5em 3em 5em 3em; 
    text-align: center;
@@ -9519,7 +9521,36 @@ hr{
 
 .box3{
   border: 1px solid black; 
-  background-image: url('../images/seatcover.jpg'); 
+  background-image: url('../images/carseat.jpg'); 
+  background-size: cover; 
+  padding: 5em 2em 5em 2em; 
+  text-align: center;
+  text-shadow: 3px 3px rgb(49, 49, 49);
+}
+.box4{
+  border: 1px solid black;
+  padding: 5em 3em 5em 3em; 
+  text-align: center;
+  z-index: 999;
+  background-image: url('../images/ED1.png');
+  background-size: cover;
+  text-shadow: 3px 3px rgb(49, 49, 49);
+  background-position-y:50%; 
+}
+
+.box5{
+  border: 1px solid black;
+   border-bottom: 2px solid black; 
+   background-image: url('../images/UNIVERSAL.jpg'); 
+   background-size: cover; 
+   padding: 5em 3em 5em 3em; 
+   text-align: center;
+   text-shadow: 3px 3px rgb(49, 49, 49);
+}
+
+.box6{
+  border: 1px solid black; 
+  background-image: url('../images/img-5d-car-mats1.png'); 
   background-size: cover; 
   padding: 5em 2em 5em 2em; 
   text-align: center;
@@ -9528,9 +9559,11 @@ hr{
 
 .label1{
   background-image: url('../images/ford.jpg'); 
-  background-size: contain; 
-  padding: 5em 3em 0em 3em; 
+  background-size: cover; 
+  padding: 3em 0em 0em 0em; 
   background-repeat: no-repeat;
+  margin-bottom: 5em;
+  background-position-y: -120px;
 }
 
 .topbox1{
